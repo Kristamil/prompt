@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prompt Method</title>
+        <style>
+            body
+            {
+                background: url("background.jpg");
+                
+            }
+            .container
+            {
+                height:90vh;
+                width:50vw;
+                border:3px solid red;
+                margin: 2% 25%;
+                background-color:black;
+            }
+            .head
+            {
+                background:linear-gradient(45deg,orange,yellow,black,gold);
+                height:60px;
+            }
+            h1
+            {
+                text-align: center;
+                color:#101edb;
+                font-weight: bold;
+                font-family: fantasy;
+                margin-top: 0%;
+                padding-top: 15px;
+            }
+            li
+            {
+                margin-left: 40%;
+            }
+            ul
+            {
+                color:greenyellow;
+                font-weight: bold;
+                font-size: 17px;
+            }
+            .main
+            {
+                background: linear-gradient(60deg,pink,red,maroon,brown);
+                padding-top: 1px;
+                padding-bottom: 1px;
+                margin-bottom: 7px;
+
+            }
+            button
+            {
+                text-align: center;
+                margin-left: 30%;
+                height:50px;
+                width:250px;
+                margin-top: 0%;
+                color:honeydew;
+                background: linear-gradient(45deg,gold,black);
+                border-radius: 10px 10px 10px 10px;
+                font-weight: bold;
+                font-size: large;
+                box-shadow: 2px 3px 1px gold;
+                cursor: pointer;
+            }
+            button:hover
+            {
+                color:skyblue;
+                background: linear-gradient(45deg,yellow,green);
+            }
+            li:hover
+            {
+                color:teal;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="head">
+            <h1>YOUR COURSES</h1>
+        </div>
+        <div class="main">
+            <ul type="square" >
+            <li><h4>HTML</h4></li>
+           <li> <h4>CSS</h4></li>
+            <li><h4>JavaScript</h4></li>
+            <li> <h4>Bootstrap</h4></li>
+            <li> <h4>ReactJS</h4></li>
+            <li> <h4>Spring</h4></li>
+            <li> <h4>Django</h4></li>
+            <li> <h4>Next JS</h4></li>
+            <li> <h4>Express JS</h4></li>
+            <li> <h4>Angular</h4></li>
+        </ul>
+        </div>
+        <button onclick="pro();">SELECT COURSE</button>
+        <script src="prompt.js"></script>
+</div>
+    </body>
+</html>
